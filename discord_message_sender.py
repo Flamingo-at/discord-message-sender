@@ -51,7 +51,7 @@ async def main():
 
 
 if __name__ == '__main__':
-	print('Discord Message Sender @flamingoat\n')
+    print('Discord Message Sender @flamingoat\n')
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     
     with open('config.yaml', 'r') as f:
